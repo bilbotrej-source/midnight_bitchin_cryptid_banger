@@ -116,12 +116,12 @@ TextureImporter:
       name: LEFT squish_0
       rect:
         serializedVersion: 2
-        x: 256
-        y: 33
-        width: 646
-        height: 728
+        x: 0
+        y: 0
+        width: 1095
+        height: 933
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 34b2ba9ea559f6144bf0db9e342f041b
     internalID: 0
     vertices: []
     indices: 

@@ -116,12 +116,12 @@ TextureImporter:
       name: DOWN squish_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 30
-        width: 821
-        height: 513
+        x: 0
+        y: 0
+        width: 1095
+        height: 933
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DOWN squish_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 554
+        width: 100
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f849585e826696f49a7f51adccfb9015
+      internalID: 1941216450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f38267249c02b88488deeff9bc6562c2
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +171,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       DOWN squish_0: 4281408702895040377
+      DOWN squish_1: 1941216450
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

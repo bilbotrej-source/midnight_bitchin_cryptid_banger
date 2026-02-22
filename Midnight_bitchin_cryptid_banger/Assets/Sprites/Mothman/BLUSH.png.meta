@@ -116,12 +116,12 @@ TextureImporter:
       name: BLUSH_0
       rect:
         serializedVersion: 2
-        x: 348
-        y: 39
-        width: 463
-        height: 810
+        x: 0
+        y: 0
+        width: 1095
+        height: 933
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5fec1c0f08d98734b82fcd56c7654227
     internalID: 0
     vertices: []
     indices: 
