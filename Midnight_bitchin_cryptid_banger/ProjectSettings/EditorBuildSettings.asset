@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level.unity
     guid: a0e757f335a5ce94d8840b44d26c9718
+  - enabled: 1
+    path: Assets/Scenes/ChooseUrBitch.unity
+    guid: 6ef15c1fa77ab71419438df533ba4b53
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 7b3edfe912108244ebbdcf45cc8b74b9, type: 3}
   m_UseUCBPForAssetBundles: 0
