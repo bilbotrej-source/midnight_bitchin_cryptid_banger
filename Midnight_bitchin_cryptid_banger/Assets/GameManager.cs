@@ -19,15 +19,15 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GenerateSequence(4);
+        GenerateSequence(400);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (rhythm.CurrentBeat != lastBeat)
+        if (rhythm.currentBeat != lastBeat)
         {
-            lastBeat = rhythm.CurrentBeat;
+            lastBeat = rhythm.currentBeat;
             OnBeat();
         }
     }
@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
             if (beatsPlayed < sequence.Count)
             {
                 npcAnimator.SetTrigger(sequence[beatsPlayed]);
+                Debug.Log("Beat: " + rhythm.currentBeat);
                 beatsPlayed++;
             }
             else
