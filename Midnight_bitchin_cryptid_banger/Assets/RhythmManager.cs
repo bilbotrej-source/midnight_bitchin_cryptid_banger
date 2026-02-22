@@ -6,20 +6,29 @@ public class RhythmManager : MonoBehaviour
     public float bpm = 110f;
 
     private float secondsPerBeat;
+    private float songPosition;
     private float songStartDspTime;
 
-    public int CurrentBeat {get; private set;}
+    public int currentBeat {get; private set;}
 
     void Start()
-    {
+    {   
+        audioSource = GetComponent<AudioSource>();
         secondsPerBeat = 60f / bpm;
-        songStartDspTime = (float)AudioSettings.dspTime;
-        audioSource.PlayScheduled(songStartDspTime);
+        audioSource.Play();
+        Debug.Log("rhythm manager has started ");
     }
 
-    void update()
+    void Update()
     {
-        float songTime = (float)(AudioSettings.dspTime - songStartDspTime);
-        CurrentBeat = Mathf.FloorToInt(songTime / secondsPerBeat);
+        songPosition = audioSource.time;
+        int newBeat = Mathf.FloorToInt(songPosition/secondsPerBeat);
+        
+        if (newBeat != currentBeat)
+        {  
+            currentBeat = newBeat;
+        }
+        Debug.Log("song time: " + audioSource.time);
+        
     }
 }
