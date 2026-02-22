@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        GenerateSequence(4);
+        GenerateSequence(400);
     }
 
     // Update is called once per frame
